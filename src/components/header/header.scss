@@ -1,0 +1,35 @@
+.Header {
+  background-image: url('/images/country.jpg');
+  padding-bottom: 45px;
+
+  .heroText {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 45px auto;
+
+    h1, h2 {
+      margin: 0px auto 20px;
+      color: #fff;
+      line-height: 1.39;
+      font-weight: 600;
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+  }
+
+  .searchFormWrapper {
+    background: #000;
+    background: rgba(0, 0, 0, 0.7);
+    filter: opacity(alpha=0.7);
+    max-width: 940px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 4px;
+    line-height: 1.63;
+  }
+
+}

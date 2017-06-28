@@ -1,0 +1,47 @@
+.AutoCompleteListItem {
+  padding: 12px;
+  border-bottom: thin solid #e8e8e8;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+  }
+
+  &:after {
+    content: "";
+    clear: both;
+    float: none;
+  }
+
+  .videoThumbnail,
+  .videoTitle,
+  .watchIcon {
+    vertical-align: middle;
+  }
+
+  .videoThumbnail {
+    display: inline-block;
+    width: 70px;
+  }
+
+  .videoTitle {
+    padding: 0 15px 0;
+    font-size: 16px;
+    max-width: 70%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .watchIcon {
+    float: right;
+    margin-top: 8px;
+  }
+
+}

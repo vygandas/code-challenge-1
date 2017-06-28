@@ -1,0 +1,23 @@
+body {
+  background-color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 800px;
+}
+
+input, button {
+  outline: transparent none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+
+  &:focus {
+    outline: transparent none !important;
+  }
+
+}
+
+.textInBody {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 46px;
+  color: #e0e0e0;
+}
