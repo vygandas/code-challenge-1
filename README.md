@@ -6,14 +6,18 @@ React was chosen because it seems to be the most elegant way to solve such task.
 
 ## RUN
 
-This command will build SASS and run webserver.
+This command will build SASS and run web server.
 ```
 npm run dev
 ```
 
 ## Structure
 Each component is separated with its JS and SCSS file.
+
 Style must be imported to get it rendered to one CSS file.
+```
+import style from './example.scss';
+```
 
 CSS is generated to styles/main.css directory.
 
