@@ -8,6 +8,7 @@ React was chosen because it seems to be the most elegant way to solve such task.
 
 This command will build SASS and run web server.
 ```
+npm install
 npm run dev
 ```
 
